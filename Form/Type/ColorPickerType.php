@@ -16,7 +16,6 @@ class ColorPickerType extends AbstractType
      */
     public function configureOptions(OptionsResolver $resolver)
     {
-
         $resolver->setDefaults([
             'attr' => [
                 'class' => 'jscolor {required:false}',
@@ -36,5 +35,4 @@ class ColorPickerType extends AbstractType
     {
         return 'xmon_color_picker';
     }
-
 }

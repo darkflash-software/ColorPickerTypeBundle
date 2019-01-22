@@ -79,5 +79,4 @@ class HexColorValidator extends ConstraintValidator
 
         return $return;
     }
-
 }

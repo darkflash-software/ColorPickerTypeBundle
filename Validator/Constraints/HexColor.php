@@ -6,13 +6,13 @@ use Symfony\Component\Validator\Constraint;
 
 /**
  * To validate HexColor Value in field
- * 
+ *
  * @Annotation
  *
  * @author Juanjo García <juanjogarcia@editartgroup.com>
  */
-class HexColor extends Constraint {
-
+class HexColor extends Constraint
+{
     public $message = 'The color (%color%) is NOT valid.';
 
     /**
@@ -24,5 +24,4 @@ class HexColor extends Constraint {
      * @var bool|null
      */
     public $requireHash = false;
-
 }

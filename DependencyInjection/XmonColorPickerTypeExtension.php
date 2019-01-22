@@ -27,9 +27,5 @@ class XmonColorPickerTypeExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
-
-        $container->setParameter('xmon_cpt.test', $config['test']);
-        $container->setParameter('xmon_cpt.config_test', $config['config']['test']);
-        
     }
 }
